@@ -11,11 +11,12 @@ html {
   font-size: 16px;
 }
 
-
+header{
+background-color: lightgray;
 }
+
 nav {
   width: 100vw;
-  background-color: blue;
   display: flex;
   justify-content: start;
 }
@@ -23,4 +24,9 @@ nav {
 nav a{
   display: flex;
   justify-content: end;
+}
+
+footer a {
+  background-color: black;
+  
 }
