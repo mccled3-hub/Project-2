@@ -1,15 +1,26 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-  color: #222;
+  background-color: aqua;
+  color: black;
   line-height: 1.4;
-  font-size: 16pt;
+  font-size: 16px;
 }
 
 
+}
+nav {
+  width: 100vw;
+  background-color: blue;
+  display: flex;
+  justify-content: start;
+}
 
-
-
+nav a{
+  display: flex;
+  justify-content: end;
+}
