@@ -14,7 +14,31 @@ html {
 header {
 width: 100vw;
 height: 3rem;
-background-color: gray;
+background-color: black;
+}
+
+.top-title{
+ font-size: 2rem;
+ padding-right: 400px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 3rem;
+  background-color: black;
+  z-index: 4;
+}
+
+
+nav a {
+  color: white;
+  text-decoration: none;
 }
 
 .picture{
@@ -26,7 +50,6 @@ background-color: gray;
 img {
   max-width: 100%;
   height: auto;
-  display: block;
 }
 
 .background {
