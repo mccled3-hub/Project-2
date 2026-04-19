@@ -12,7 +12,28 @@ html {
 }
 
 header{
-background-color: lightgray;
+width: 100vw;
+height: 3rem;
+background-color: gray;}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.back{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-size: 6rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 nav {
@@ -28,5 +49,5 @@ nav a{
 
 footer a {
   background-color: black;
-  
+
 }
