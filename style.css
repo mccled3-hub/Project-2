@@ -19,7 +19,7 @@ background-color: gray;
 
 .picture{
   width: 100%;
-  height: auto;
+  height: 600px;
   display: block;
 }
 
@@ -58,6 +58,11 @@ section {
   gap: 3rem;
 }
 
+.picture2 {
+  display: flec;
+  align-items: center;
+}
+
 .column {
   flex: 2;
   align-content: center;
@@ -65,6 +70,9 @@ section {
 
 .second-article{
   display: grid;
+  grid-template-columns: 275px 2fr ;
+  grid-auto-rows: auto;
+  gap: 3rem;
 }
 
 /*tweaking
