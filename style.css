@@ -146,3 +146,34 @@ color: white;
 display: flex;
 align-items: center;
 }
+
+@media only screen and (max-width: 480px) {
+header {
+height: 3.5rem;
+}
+
+.top-title{
+ font-size: 1.2rem;
+ font-weight: 900;
+ padding-right: 0px;
+}
+nav {
+  gap: 1rem;
+}
+
+  h1 {
+  transform: translate(-50%, -80%);
+}
+
+  .first-article {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+  .second-article {
+  display: flex;
+  flex-direction: column;
+}
+
+}
+
