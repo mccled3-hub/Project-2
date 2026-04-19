@@ -91,27 +91,16 @@ section {
   align-content: center;
 }
 
-.second-article{
+.second-article {
   display: grid;
   grid-template-columns: 275px 2fr ;
   grid-auto-rows: auto;
   gap: 3rem;
 }
 
-/*tweaking
-nav {
-  width: 100vw;
-  display: flex;
-  justify-content: start;
-}
 
-nav a{
-  display: flex;
-  justify-content: end;
-}
-  */
-
-footer a {
+footer {
   background-color: black;
-
+  display: flex;
+  flex-direction: row;
 }
