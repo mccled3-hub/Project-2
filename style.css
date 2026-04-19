@@ -69,6 +69,14 @@ h1 {
   transform: translate(-50%, -50%);
 }
 
+h2 {
+  font-size: 2.3rem;
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 100px;
+  text-decoration: underline;
+}
+
 section {
   margin: 0 3rem;
   padding: 16px;
