@@ -112,7 +112,7 @@ section {
 
 .second-article {
   display: grid;
-  grid-template-columns: 275px 2fr ;
+  grid-template-columns: 275px 2fr;
   grid-auto-rows: auto;
   gap: 3rem;
 }
@@ -135,6 +135,7 @@ h3{
   padding-top: 2rem;
   text-decoration: underline;
 }
+
 footer a{
   color:white;
   text-decoration: none;
