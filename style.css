@@ -11,7 +11,7 @@ html {
   font-size: 16px;
 }
 
-header{
+header {
 width: 100vw;
 height: 3rem;
 background-color: gray;
@@ -23,7 +23,7 @@ img {
   display: block;
 }
 
-.back{
+.background {
   position: relative;
   text-align: center;
   color: white;
@@ -35,6 +35,23 @@ h1 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+section {
+  margin: 0 3rem;
+  padding: 16px;
+}
+
+.first-article {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 3rem;
+}
+
+.column {
+ flex: 2;
+align-content: center;
 }
 
 
