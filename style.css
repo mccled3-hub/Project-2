@@ -14,7 +14,8 @@ html {
 header{
 width: 100vw;
 height: 3rem;
-background-color: gray;}
+background-color: gray;
+}
 
 img {
   width: 100%;
@@ -36,6 +37,8 @@ h1 {
   transform: translate(-50%, -50%);
 }
 
+
+/*tweaking
 nav {
   width: 100vw;
   display: flex;
@@ -46,6 +49,7 @@ nav a{
   display: flex;
   justify-content: end;
 }
+  */
 
 footer a {
   background-color: black;
